@@ -1,0 +1,30 @@
+{
+  "name": "playwright_jest",
+  "version": "1.0.0",
+  "description": "This is playwright project with JEST",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rimraf -f screenshots; mkdir screenshots",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NerXXXy/playwright_jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NerXXXy/playwright_jest/issues"
+  },
+  "homepage": "https://github.com/NerXXXy/playwright_jest#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.31.1",
+    "jest": "^28.1.3",
+    "jest-playwright-preset": "^2.0.0",
+    "playwright": "^1.24.2"
+  },
+  "dependencies": {
+    "jest-html-reporters": "^3.0.10"
+  }
+}
