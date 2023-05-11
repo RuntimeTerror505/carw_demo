@@ -10,6 +10,7 @@ module.exports = {
             'expand': true,
             "openReport": true
 
+
         }]
     ]
 }
